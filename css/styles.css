@@ -580,7 +580,7 @@ footer {
 }
 
 .project-info {
-	position: absolute;
+	display: contents;
 	top: 50%;
 	-webkit-transform: translateY(-50%);
 	transform: translateY(-50%);
