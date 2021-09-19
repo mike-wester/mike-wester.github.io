@@ -18,7 +18,7 @@ body.active {
 		-webkit-transform: translateY(-100%);
 		transform: translateY(-100%)
 	}
-	100% {
+	100% { 
 		-webkit-transform: translateY(0);
 		transform: translateY(0)
 	}
@@ -234,7 +234,7 @@ footer {
 
 #lead {
 	position: relative;
-	background: url(../images/Milwaukee.jpg);
+	background: url(../images/HeaderBackground.jpg);
 	background-size: cover;
 	padding: 250px 15px
 }
