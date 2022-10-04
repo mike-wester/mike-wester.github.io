@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Michael Wester - Full Stack Software Engineer</title>
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+		<link rel="icon" href="favicon.ico" type="image/x-icon">
+		<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+		<link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/styles.css" rel="stylesheet">
+	</head>
+
+	<body>
+		<div id="mobile-menu-open" class="shadow-large">
+			<i class="fa fa-bars" aria-hidden="true"></i>
+		</div>
+		<!-- End #mobile-menu-toggle -->
+		<header>
+			<div id="mobile-menu-close">
+				<span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
+			</div>
+			<ul id="menu" class="shadow">
+				<li>
+					<a href="#about">About</a>
+				</li>
+				<li>
+					<a href="#experience">Experience</a>
+				</li>
+				<li>
+					<a href="#education">Education</a>
+				</li>
+				<li>
+					<a href="#projects">Projects</a>
+				</li>
+				<li>
+					<a href="#skills">Skills</a>
+				</li>
+				<li>
+					<a href="#contact">Contact</a>
+				</li>
+			</ul>
+		</header>
+		<!-- End header -->
+
+		<div id="lead">
+			<div id="lead-content">
+				<h1>Michael Wester</h1>
+				<h2>Full Stack Software Engineer</h2>
+				<a href="https://drive.google.com/file/d/1opzanEBEUiuUByj1_z4dzFvTeSUwY1Bi/view?usp=sharing" class="btn-rounded-white">Google Resume Link</a>
+                <br>
+                <br>
+                <a href="./documents/Michael Wester.docx" class="btn-rounded-white">Direct Download Resume</a>
+			</div>
+			<!-- End #lead-content -->
+
+			<div id="lead-overlay"></div>
+
+			<div id="lead-down">
+				<span>
+					<i class="fa fa-chevron-down" aria-hidden="true"></i>
+				</span>
+			</div>
+			<!-- End #lead-down -->
+		</div>
+		<!-- End #lead -->
+
+		<div id="about">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4">
+						<h2 class="heading">About Me</h2>
+					</div>
+					<div class="col-md-8">
+						<p>
+							Software Engineer that has worked in the software industry for 12+ years 10+ of which is with web-enabled clients, ranging vastly in multinational 
+                            conglomerates to start-up companies looking for Series A funding. The most important thing for me in a career is enjoying the people I work with 
+                            and what I do. In addition, working at a company where a career path is transparent while also working with a modern technology stack is a must and 
+                            I am looking to get more into management/leadership/staff engineering.
+                            <br>
+                            <br>
+                            I have led teams ranging in sizes of 4 engineers/2 QA and 6 engineers/5 QA all spread across seniority levels/titles, regions and timezones, 
+                            led multilingual teams, participated in 5+ greenfield startups from POC to MVP, always driving for production release. Leading a team through 
+                            thick and thin in the trenches with them.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- End #about -->
+
+		<div id="experience" class="background-alt">
+			<h2 class="heading">Experience</h2>
+			<div id="experience-timeline">
+				<div data-date="October 2021 – Present">
+					<h3>The Predictive Index</h3>
+					<h5>Lead Engineer</h5>
+					<h5>Remote</h5>
+					<p>
+						<br>
+                        Global Experience is a new and initiative that consitsts of a team of 3 Engineers, a Product Designer, and Product Manager to standardize UI components and overall 
+                        user experience of the PI Suite.  This initiative is consists of building an new consumable library in Angular (13 currently) for other modules/micro-frontends to consume. 
+                        This library is automatically built and deployed in a CI/CD fashion using CircleCI and automated scripting. 
+                        <br>
+                        <br>
+                        <ul>
+							<li>New initiative to help standardize the user experience across all PI Applications</li>
+                            <li>Integrate Angular Materials to replace existing infrastructure.</li>
+                            <li>Manage 3 direct reports</li>
+						</ul>
+					</p>
+					<h5>Senior Software Engineer</h5>
+					<h5>Remote</h5>
+					<p>
+						<br>
+                        Global Feature\Experience is a new initiative setup to help manage global standardizations. 
+                        Global Features focus more around managing permissions/access across all applications in the PI Suite.
+                        Global Experience is attempting to integrative Angular Martials and standardize UI components across the PI Suite. 
+                        <br>
+                        <br>
+                        <ul>
+							<li>Lead efforts to implment a UX Library of components with Storybook overview.</li>
+                            <li>Member of Frontend Internal committees.</li>
+                            <li>Helped implement new permission control system.</li>
+						</ul>
+					</p>
+				</div>
+				<div data-date="February 2021 – October 2021">
+					<h3>GoPuff</h3>
+					<h5>Software Engineer II - Forecasting</h5>
+					<h5>Remote</h5>
+					<p>
+						<br>
+                        Forecasting Engineering is a new initiative inside of gopuff to better forecast workload/orders. Developing a new Full Stack React/Express/GraphQL application 
+                        and other Docker containers for processing. The Forecasting application is designed to take the current manual processes with multiple variations and standardize 
+                        metrics across the organization.
+                        <br>
+                        <br>
+                        <ul>
+							<li>Learning and Developing best practices for new React/GraphQL development.</li>
+                            <li>Developed styled components to bring consistent feel to the new application.</li>
+                            <li>Setup base infrastructure for new development, builds, release.</li>
+							<li>Dockerize Application for deployment</li>
+							<li>Maintain github enterprise rules, webhooks and actions.</li>
+						</ul>
+					</p>
+				</div>
+				<div data-date="July 2019 – June 2020">
+					<h3>Advicent</h3>
+					<h5>Senior Software Engineer</h5>
+					<h5>Greater Milwaukee Area</h5>
+					<p>
+						<br>
+                        Guided Retirement, a greenfield front-end project, application provides a quick overview and basic insight from Financial Advisors to their end clients about retirement planning.
+						<br>
+						<br>
+                        The Essentials project, a greenfield full stack project, provides a more robust solution allowing for a larger customer base to access great financial planning.
+                        <br>
+						<br>
+                        Both solutions utilized an Angular 8 front end communicating with a C# RestFUL micro service API backend. Both are fully built and deployed utilizing Azure Pipelines and docker containers.
+                        <br>
+						<br>
+                        <ul>
+                            <li>One of 4 required Angular developers pull request approvers, ensuring quality code.</li>
+                            <li>Started the new Essentials Angular Front end project from scratch.</li>
+                            <li>Developed and released two new greenfield applications.</li>
+                            <li>Functioned as team lead for 4 software engineers, 1 QA engineer and 1 automation engineer.</li>
+							<li>Establish best practices for Angular development and testing standards.</li>
+							<li>Modernized the VCS to move away from TFS to VSTS Git repository system.</li>
+							<li>Developed and released new applications to market starting from concept to implementation to help broaden Advicents suite.</li>
+							<li>Developed and released the initial Alpha Essentials build for customer evaluation and feedback.</li>
+							<li>Worked closely with Product Owners/Managers to best order and align needs to release a MVP to market.</li>
+							<li>Worked with UI/UX to ensure an easy use for end users and positive overall end user experience.</li>
+							<li>Ensured quality unit testing was in place for version upgrades and testing changes by acting as one of a select few required for sign off on enhancements and other changes.</li>
+						</ul>
+					</p>
+				</div>
+				<div data-date="September 2017 – July 2019">
+					<h3>Finastra (Formally D+H)</h3>
+					<h5>Software Engineer</h5>
+					<h5>Greater Milwaukee Area</h5>
+					<p>
+						Point-of-Sale Mortgage system development engineer, enhancing the legacy application providing banks with a SaaS solution, enabling them the ability to provide and process mortgage applications online.
+						<br>
+						<br>
+						<ul>
+                            <li>Implemented features to comply with ADA (American Disability Act) in association with WCAG (Web Content Accessibility Guidelines).</li>
+                            <li>Implemented integration with 3rd party applications to provide robust integrations for mortgage options and rates for the current market.</li>
+                            <li>Transitioned to modern technologies and best practices (i.e. Angular 4, Visual Studio 2019, Kanban from SAFe scrum).</li>
+							<li>Work to help modernize and update existing architecture and process.</li>
+							<li>Work with product owners to implement new features planned for our next release cycle</li>
+							<li>Updated existing application for ADA compliance</li>
+							<li>Enhanced 3rd party integrations for additional vendors</li>
+							<li>Implemented core enhancements for performance</li>
+						</ul>
+					</p>
+				</div>
+				<div data-date="April 2016 – September 2017">
+					<h3>D+H</h3>
+					<h5>Software Engineer - Development Lead</h5>
+					<h5>Greater Milwaukee Area</h5>
+					<p>
+                        Development Lead of a small team, 3 software engineers, 2 QA engineers, 3 offshore-software engineers), on a new green field product, NLP (New Lending Platform). 
+                        Composed of an Razer MVC/Angular front-end paired with C# .NET backend RestFUL API and being deployed utilizing Microsoft Azure and Octopus.
+						<br>
+						<br>
+						<ul>
+                            <li>Gatekeeper for pull request changes into the main branch to ensure best practices and code quality.</li>
+                            <li>Developed multiple components and services to be consumed by our SPA and PWA.</li>
+                            <li>Implemented Angular animations to provide a stimulating overall User Experience.</li>
+                            <li>Implemented a new Angular Front end from beta to release candidate ending in Angular 4.</li>
+							<li>Lead one of six development teams</li>
+							<li>Worked in multiple development methodologies SAFe and Kanban</li>
+							<li>Utilized the newest technologies such as Microsoft Azure and Angular 2.0 from beta through release.</li>
+							<li>Personally upgrade the project from Angular 2.0 to 4.4 release</li>
+						</ul>
+					</p>
+				</div>
+
+				<div data-date="May 2015 – March 2016">
+					<h3>JDA Software (Formally JDA Software formally RedPrairie)</h3>
+					<h5>Sr. Consulting Software Engineer</h5>
+					<h5>Greater Milwaukee Area</h5>
+					<p>
+                        Implantation Service - Developmental Services Engineer addressing identified gaps between our core software platform and the customer needs. Frequently requested gaps by multiple 
+                        customers were worked to implement features inside of the core product warehouse management suite in addition to specific customers.
+						<br>
+						<br>
+						<ul>
+                            <li>Implement Voice enhancements introduced to the core product.</li>
+                            <li>Lead efforts collaborating with customers directly to meet their needs.</li>
+                            <li>Provided on-site support during customer go-lives to ensure the system is meeting the customer needs.</li>
+							<li>Created custom screens to allow for an expedited workflow process.</li>
+							<li>Assisted in customer implementations to debug configuration issues ahead of aggressive deadlines.</li>
+							<li>Helped to establish workflows for implementing customer customization's.</li>
+						</ul>
+					</p>
+				</div>
+				
+				<div data-date="December 2013 – May 2015">
+					<h3>Iptor Supply Chain Systems (Formally IBS AB)</h3>
+					<h5>Sr. Consulting Software Engineer</h5>
+					<h5>Greater Milwaukee Area</h5>
+					<p>
+                        Product Development engineer looking to modernize the current Dynaman application from VB .NET monolithic application to AngularJS and C# API based application. Also was selected to spearhead a 
+                        project to modernize and create integrations with 3rd party applications replacing SSIS with Java RESTful/SOAP web services.
+                        <br>
+						<br>
+						<ul>
+                            <li>Developed Entity Framework RESTful API’s for integration with internal and external systems.</li>
+                            <li>Implemented SOAP base Web Services for 3rd party integrations with the WMS.</li>
+                            <li>Helped lead development efforts modify core applications for S tier customers.</li>
+                        </ul>
+					</p>
+				</div>
+				
+				<div data-date="October 2009 – December 2013">
+					<h3>Blue Yonder (Formally JDA Software formally RedPrairie)</h3>
+					<h5>Technical Consultant - Intermediate</h5>
+					<h5>Waukesha, Wisconsin</h5>
+					<p>
+						After the JDA/RedPrairie merger a re-organization occurred within the Implementation services to have a core team in place to help standardize 
+						how customization's were implemented for customers. Instead of direct on-site access we were given a list of requirements and the specific version 
+						the customer was going live with to provide the technical experience to best implement the customization.
+					</p>
+					<br>
+					<h5>Senior Software Engineer</h5>
+					<h5>Waukesha, Wisconsin/Denver, Colorado (Remote)</h5>
+					<p>
+						Still worked as part of the Implementation Services organization. In addition to the Technical Implementation of customization I also had the added 
+						responsibility of gathering customer requirements and then Designed and Implemented customization's to the core WMS, MTF and Voice systems RedPrairie 
+						had to offer.
+					</p>
+					<br>
+					<h5>Software Engineer</h5>
+					<h5>Waukesha, Wisconsin/Denver, Colorado (Remote)</h5>
+					<p>
+						Worked as part of the Implementation Services organization. Core responsibilities during my time as a software engineer primarily revolved around the 
+						technical implementation of customization's to the base WMS product that RedPrarie had to offer. In addition to implementing customization's I 
+						provided on-site support during projects User Acceptance Testing and Go-Live phases.
+					</p>
+					<br>
+					<h5>Software Architect Intern</h5>
+					<h5>Waukesha, Wisconsin</h5>
+					<p>
+						Worked as part of the Warehouse Management product development team to develop new features to be released as part of a bi-yearly release process. 
+						In addition to development of new features, general maintenance through investigation to resolution was also a larger portion of my responsibilities.
+					</p>
+				</div>
+			</div>
+		</div>
+		<!-- End #experience -->
+
+		<div id="education">
+			<h2 class="heading">Education</h2>
+			<div class="education-block">
+				<h3>University of Wisconsin - Milwaukee</h3>
+				<span class="education-date">2007 - 2010</span>
+				<h4>Bachelor of Science in Computer Science</h4>
+			</div>
+			<!-- End .education-block -->
+		</div>
+		<!-- End #education -->
+
+		<div id="projects" class="background-alt">
+			<h2 class="heading">Projects</h2>
+			<div class="container">
+				<div class="row">
+					<div class="project shadow-large">
+						<div class="project-image">
+							<img src="images/treva.png" />
+						</div>
+						<!-- End .project-image -->
+						<div class="project-info">
+							<h3>Angular Atm</h3>
+							<p>
+								Portfolio Project always in progress to showcase my Angular experience and personal style of coding.
+							</p>
+							<a href="https://angular-atm.firebaseapp.com/login">Angular ATM</a>
+                            <br>
+                            <a href="https://github.com/benderCO/angular-atm">Source Code</a>
+						</div>
+						<!-- End .project-info -->
+					</div>
+					<!-- End .project -->
+				</div>
+			</div>
+		</div>
+		<!-- End #projects -->
+
+		<div id="skills">
+			<h2 class="heading">Skills</h2>
+			<h3>Programming Languages</h3>
+			<ul>
+				<li>Angular</li>
+                <li>React</li>
+				<li>Typescript</li>
+				<li>GraphQL</li>
+				<li>Express.js</li>
+				<li>C#</li>
+			</ul>
+			<h3>Unit Testing</h3>
+			<ul>
+				<li>Karma</li>
+				<li>Jasmine</li>
+                <li>Jest</li>
+				<li>XUnit</li>
+			</ul>
+			<h3>Database</h3>
+			<ul>
+                <li>Postgres</li>
+                <li>Snowflake</li>
+				<li>SQL Sever</li>
+				<li>Oracle</li>
+				<li>Cosmos</li>
+			</ul>
+			<h3>Tools</h3>
+			<ul>
+				<li>npm</li>
+                <li>yarn</li>
+				<li>git</li>
+				<li>Docker</li>
+                <li>Kubernetes</li>
+				<li>Github Actions</li>
+				<li>Azure Pipelines</li>
+			</ul>
+		</div>
+		<!-- End #skills -->
+
+		<div id="contact" class="background-alt">
+			<h2>Get in Touch</h2>
+			<div id="contact-form">
+				<form method="POST" action="https://formspree.io/xbjzbwkj">
+					<input type="hidden" name="_subject" value="Contact request from personal website" />
+					<input type="email" name="_replyto" placeholder="Your email" required>
+					<textarea name="message" placeholder="Your message" required></textarea>
+					<button type="submit">Send</button>
+				</form>
+			</div>
+			<!-- End #contact-form -->
+		</div>
+		<!-- End #contact -->
+
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-5 copyright">
+						<p>
+							Copyright &copy; 2020 Michael Wester
+						</p>
+					</div>
+					<div class="col-sm-2 top">
+						<span id="to-top">
+							<i class="fa fa-chevron-up" aria-hidden="true"></i>
+						</span>
+					</div>
+					<div class="col-sm-5 social">
+						<ul>
+							<li>
+								<a href="https://www.linkedin.com/in/wester-michael"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+							</li>
+							<li>
+								<a href="https://github.com/benderCO"><i class="fa fa-github" aria-hidden="true"></i></a>
+							</li>
+							<li>
+								<a href="https://stackoverflow.com/users/7400802/michael-wester?tab=profile"><i class="fa fa-stack-overflow" aria-hidden="true"></i></a>
+							</li>
+							<li>
+								<a href="https://www.codewars.com/users/mpwester"><img src="images/codewars.svg" class="codewars-img" alt="Codewars"></a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!-- End footer -->
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="js/scripts.min.js"></script>
+	</body>
+
+</html>
