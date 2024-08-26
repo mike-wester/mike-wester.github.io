@@ -22,7 +22,7 @@ body.active {
 		-webkit-transform: translateY(0);
 		transform: translateY(0)
 	}
-}
+}f
 
 @keyframes dropHeader {
 	0% {
@@ -48,8 +48,8 @@ header {
 	animation-iteration-count: 1;
 	-webkit-animation-timing-function: ease;
 	animation-timing-function: ease;
-	-webkit-animation-duration: 0.75s;
-	animation-duration: 0.75s
+	-webkit-animation-duration: 0.25s;
+	animation-duration: 0.25s
 }
 
 header ul {
@@ -237,7 +237,8 @@ footer {
 	position: relative;
 	background: url(../images/HeaderBackground.jpg);
 	background-size: cover;
-	padding: 250px 15px
+	background-position-y: center;
+	padding: 100px 15px
 }
 
 #lead-content {
